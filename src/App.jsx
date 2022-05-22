@@ -9,10 +9,14 @@ import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
+import { Trans } from 'react-i18next';
+
 
 const App = () => {
+
   return (
     <>
+    <Trans/>
         <Header/>
         <Nav/>
         <About/>

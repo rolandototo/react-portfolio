@@ -31,3 +31,27 @@ nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
 }
+.nav__switcher_lang{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 3;
+    position: fixed;
+    left: 10%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    top: 2rem;
+}
+.nav__switcher_lang > button{
+    cursor: pointer;
+}
+
+.nav__lang{
+    background-color: transparent;
+    color: white;
+}

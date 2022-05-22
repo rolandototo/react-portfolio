@@ -1,10 +1,13 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
+import { useTranslation} from 'react-i18next'
+
 const CTA = () => {
+  const {t} = useTranslation();
   return (
     <div className='cta'>
-        <a href={CV} download className='btn'>Download CV</a>
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        <a href={CV} download className='btn'>{t('header.btn1')}</a>
+        <a href="#contact" className='btn btn-primary'>{t('header.btn2')}</a>
     </div>
   )
 }
