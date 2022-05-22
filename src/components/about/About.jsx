@@ -4,12 +4,14 @@ import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUser} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import { useTranslation} from 'react-i18next'
 
 const About = () => {
+  const {t} = useTranslation();
   return (
     <section id='about'>
-      <h5>Get to Know</h5>
-      <h2>Aboout Me</h2>
+      <h5>{t('about.part1')}</h5>
+      <h2>{t('about.part2')}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,26 +23,26 @@ const About = () => {
           <div className="about__cards">
           <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Year Working</small>
+              <h5>{t('about.box1')}</h5>
+              <small>{t('about.subBox1')}</small>
             </article>
 
             <article className='about__card'>
               <FiUser className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>{t('about.box2')}</h5>
+              <small>{t('about.subBox2')}</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>{t('about.box3')}</h5>
+              <small>{t('about.subBox3')}</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, accusantium vel? Facilis provident quas, alias corporis est nesciunt magni eveniet dolor numquam quisquam, odit enim laudantium illum repellendus vero sint.
+          {t('about.text')}
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>{t('about.btn')}</a>
         </div>
       </div>
     </section>
