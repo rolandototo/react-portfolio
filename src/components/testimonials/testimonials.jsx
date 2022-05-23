@@ -4,9 +4,11 @@ import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
+import {useTranslation} from 'react-i18next'
+
 
 // import Swiper core and required modules
-import {Pagination } from 'swiper';
+import {Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,29 +17,40 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const data =[
-  {
-    avatar: AVTR1,
-    name: 'Tina Snow',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!'
-  },
-  {
-    avatar: AVTR2,
-    name: 'Tina Snow2',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!'
-  },
-  {
-    avatar: AVTR3,
-    name: 'Tina Snow3',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Tina Snow4',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!'
-  }
-]
+
+
 const Testimonials = () => {
+
+  const {t} = useTranslation();
+
+  const data =[
+
+    {
+      avatar: AVTR1,
+      name: 'Leon Trujillo',
+      review: t('testimonial.test1')
+    },
+    {
+      avatar: AVTR2,
+      name: 'German Caceres',
+      review: t('testimonial.test2')
+    },
+    {
+      avatar: AVTR3,
+      name: 'Milton Mejia',
+      review: t('testimonial.test3')
+    },
+    {
+      avatar: AVTR4,
+      name: 'Edwin Almira',
+      review: t('testimonial.test4')
+    },
+    {
+      avatar:"",
+      name: 'Publisoft',
+      review:t('testimonial.test5')
+    }
+  ]
   return (
     <section id='testimonials'>
       <h5>Review from clients</h5>

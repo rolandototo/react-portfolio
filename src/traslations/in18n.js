@@ -37,6 +37,15 @@ i18n
               subBox3:"80+ Completed",
               text:"My knowledge and experiences have been self-taught on an online platform as well as in professional certification places in which I have learned web design and Front-End. I handle frameworks like Bootstrap 4 and the use of SASS in CSS. I have experience working with the Wordpress, Shopify and Magento platform. I have knowledge in React and continually update my album of skills with new and different coding methods thus being at the forefront of the subject.",
               btn:"Let's Talk!"
+          },
+          testimonial:{
+            part1:"Review from clients",
+            part2:"Testimonial",
+            test1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test3:"Doy fe",
+            test4:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test5:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!"
           }
         }
       },
@@ -60,6 +69,15 @@ i18n
               subBox3:"80+ Completados",
               text:"Mis conocimientos y experiencias han sido autodidactas en una plataforma online al igual que en lugares de certificacion profecional en las cuales he aprendido diseño web y Front-End. Manejo frameworks como Bootstrap 4 y la utilizacion de SASS en CSS. Poseo expreinecia trabajanmdo con la plataforma de Wordpress, Shopify y Magento. Tengo conosimiento en React y continuamente actualizo mi album de habilidades con nuevos y distintos metodos de codigo estando asi a la vanguardia en el tema.",
               btn:"Hablemos!"
+          },
+          testimonial:{
+            part1:"Review de los clientes",
+            part2:"Testimonios",
+            test1:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test2:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test3:"Doy fe en ingles",
+            test4:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!",
+            test5:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nulla cupiditate vel odio provident fugiat. Maiores assumenda perferendis distinctio excepturi porro veritatis pariatur reprehenderit labore debitis quas! Earum unde aliquam aut, officiis sint, quidem distinctio tempora ab suscipit voluptas excepturi!"
           }
           }
       }
