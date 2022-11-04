@@ -7,9 +7,8 @@ import {FaDribbble} from 'react-icons/fa'
 const headerSocial = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
-        <a href="https://gtihub.com" target="_blank" rel="noreferrer"><FaGithub/></a>
-        <a href="https://dribbble.com" target="_blank" rel="noreferrer"><FaDribbble/></a>
+        <a href="https://www.linkedin.com/in/rolando-escobar/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com/rolandototo" target="_blank" rel="noreferrer"><FaGithub/></a>
     </div>
   )
 }

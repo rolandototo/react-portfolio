@@ -3,7 +3,7 @@ nav{
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
-    z-index: 2;
+    z-index: 9999;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -36,7 +36,7 @@ nav a.active{
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
-    z-index: 3;
+    z-index: 9999;
     position: fixed;
     left: 10%;
     transform: translateX(-50%);
